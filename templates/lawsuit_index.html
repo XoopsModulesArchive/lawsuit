@@ -1,0 +1,6 @@
+<p><{$lawsuit_intro}></p>
+
+<{foreach item=lawsuit from=$lawsuits}>
+<h4><a href="index.php?id=<{$lawsuit.id}>"><{$lawsuit.title}></a></h4>
+<p><{$lawsuit.desc}></p>
+<{/foreach}>
